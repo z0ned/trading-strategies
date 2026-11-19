@@ -1,0 +1,20 @@
+Saty ATR Levels
+ATR Levels can be used with price, volume, and trend analysis as part of a trading system.
+
+Features include:
+
+Scalp (thinkorswim only), Day, Multiday, Swing, Position, and Long-term Modes
+
+Central pivot level that indicates the previous period close
+
+Potential long/short triggers with Data Labels
+
+Potential targets based on ATR and key fibonacci levels
+
+Full 2 ATR extension levels
+
+Trend Label
+
+Range Label
+
+Saty ATR Levels Signals Study for scanning + 2 Example scans (thinkorswim only)
