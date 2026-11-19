@@ -1,1 +1,28 @@
 
+Saty Pivot Ribbon Pro
+A 5 EMA Ribbon system that simplifies measuring and using EMAs for trend and support/resistance.
+
+Features include:
+
+5 EMA Trend Ribbon (8, 13, 21, 48, 200 default)
+
+2 color system for showing bullish trend (green + blue)
+
+2 color system for showing bearish trend (red + orange)
+
+Ribbon folding visual indicates EMA crossover
+
+13 EMA pullback overlap to help with entries and holds in trend.
+
+Conviction Arrows based on 13/48 EMA crossover
+
+Biased 2 color 21 EMA (against the 8 EMA cross)
+
+Biased 2 color 200 EMA (against the 21 EMA cross)
+
+Bias Candles - Enable color coding for candles relative to a bias EMA.
+
+Compression Candles (optional) - Saty Phase Oscillator Compression applied to Bias Candles
+
+Time Warp (optional) - Use a different Ribbon timeframe than the chart.
+
