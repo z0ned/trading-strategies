@@ -1,0 +1,232 @@
+Chapter 1: Introduction and context
+0:000 secondshello everyone welcome to my Saudi phase oscillator indicator overview video uh I'm really excited to to give this one
+0:088 secondsto you guys uh I know it's been a long time uh since I've been sharing the the oscillator on on uh social media and uh
+0:1616 secondsa lot of people have been very excited about it um you know there's a a whole group of people that joined the um the
+0:2424 secondsbeta the private beta and I I do want to thank all of those folks uh for the support and for uh getting Early Access
+0:3232 secondsso they could test it out and use it for themselves uh and I'm really pleased with the the results and seeing everybody enjoying it um and being able
+0:4040 secondsto use it to to help themselves so you know that being said uh thanks again to the beta folks and uh you know I really appreciate you all um before we begin
+0:4848 secondsthe presentation I just want to remind you that this presentation is not Financial advice and I'm not a financial adviser so if you decide to use this
+0:5757 secondsindicator and you decide to take some trades with it those trades are your trades and your trades alone I really really recommend that you go and look at
+1:041 minute, 4 secondsprice and uh look at charts with uh this indicator before you decide to jump in and use it in live trades um but that
+1:121 minute, 12 secondsbeing said I hope you enjoy it and I hope you find some value in what I have created for you so today we're going to go through a
+1:191 minute, 19 secondsbunch of things uh why did I make it what does it look like what are the basic features and then we'll put it all together and look at uh how you may have
+1:261 minute, 26 secondsbeen able to utilize it to take some uh trades on the SPX daily chart so why did I make it um you know
+1:351 minute, 35 secondsthere's there are a lot of really great indicators out there um you know there's some people that don't use indicators I think that's perfectly fine I'm a price
+1:431 minute, 43 secondsvolume guy so you know I started from no indicators uh to adding some and then you know adding more and adding too many
+1:501 minute, 50 secondstaking off many and then started to build my own to kind of build my own system so um you I've gone through the whole gamut and um you know I think that
+1:581 minute, 58 secondsthere are some really nice benefits you can get from some of these indicators to help you kind of understand where you are in a market and um I wanted to look
+2:062 minutes, 6 secondsand see if I could get those benefits into a single package uh you know obviously it it's it's hard to to kind
+2:142 minutes, 14 secondsof uh take all of those pieces and put them together and just sort of Cobble it together into something so it had to be something new it had to be from the
+2:232 minutes, 23 secondsground up um uh so that I could you know get those advantages get those benefits but also provide potential new advantages and
+2:312 minutes, 31 secondsoptimizations um you know focused on being as close to price as possible being fast and you know uh available and
+2:392 minutes, 39 secondsand working for both you know short-term trades all the way to to long-term trades so this has been a long long
+2:472 minutes, 47 secondsjourney uh I started this about 16 months ago uh I've been doing a lot of development a lot of late nights um a
+2:552 minutes, 55 secondslot of discussion with folks as I share uh shots a lot of questions people have asked me that have been probing questions for the uh you know that's
+3:033 minutes, 3 secondsthat's allowed me to sort of think about things and get better and uh you know make things better and and improve things so uh this you know this code is
+3:103 minutes, 10 secondsis very simple at this point but it didn't start that way and it C certainly went through a long journey to get to where this where it is this certain you
+3:183 minutes, 18 secondsknow this this current refinement uh that I've that I've created so um you know sometimes things will look very
+3:253 minutes, 25 secondssimple when you're done and obvious and um those are sometimes of the most beautiful products of course this is my
+3:333 minutes, 33 secondsown product so I I you know I think it's great uh that's up to you whether or not you think that's true as well but you
+3:413 minutes, 41 secondsknow to me now when I look at it I'm like this is obvious it's it's so obvious once it's done that it makes
+3:493 minutes, 49 secondsmakes sense and that's exciting so that being said you know I don't expect this indicator to replace your favorite
+3:563 minutes, 56 secondsindicators right I don't exp expect it to replace RSI for you macd or Kelner channels or Binger bands or any of those
+4:044 minutes, 4 secondsindicators right it's not meant to do that it is its own thing it's not going to uh you know have all the same Fidelity as each one of those indicators
+4:124 minutes, 12 secondsthat have multiple purposes it's simply taking some of the benefits of those indicators and putting it into a single package um so you know it may or may not
+4:204 minutes, 20 secondswork for you and you know i' I I think it would be best for you to to go through and kind of appreciate what's going on under the hood and what's
+4:284 minutes, 28 secondshappening uh before you jump in and start using it for your own trades so here's what the oscillator signal looks for looks like uh and and
+Chapter 2: Indicator inspiration
+4:364 minutes, 36 secondswe'll talk a little bit more about what this is but I just kind of want to show you uh most of you should be familiar with it of course anybody who's in the beta already knows uh what you know most
+4:454 minutes, 45 secondsof this looks like and what it means those of you that are you know getting access to it today I think you'll be able to to
+4:534 minutes, 53 secondsfollow along and and start to look at Price later look at your charts and try to understand how it relates to it but it's
+5:015 minutes, 1 secondpretty simple there's a grid there's an oscillator sign signal and then there's a label and we'll talk a little bit about each of those pieces in just a moment but before we dive in I want to
+5:105 minutes, 10 secondstalk about the four indicators that I was inspired by and the benefits of those indicators usually singular in one
+5:175 minutes, 17 secondscase I think there's a couple different benefits that I was trying to extract like I don't want to get everything from those indicators I don't want to try to take every element and you know kind of
+5:275 minutes, 27 secondsput it all in one that that just gets complicated I'm trying simplify things so let's talk a little bit about what I like about those things and then how I
+5:345 minutes, 34 secondspull those Concepts into the uh Saudi phase oscillator so the first concept is uh Kelner Channel range so you know an
+Chapter 3: Core indicator concepts
+5:435 minutes, 43 secondsoscillator uh generally is going to be uh range based signal most oscillators or many oscillators typically will have a fixed range you know things like RSI
+5:515 minutes, 51 secondsare going to have fixed range so Kelner channels are quite useful um and if you're not familiar with it it's essentially just a EMA uh with with a
+6:006 minutesyou know plus X ATR and minus X ATR uh upper and lower bound so in this case it
+6:076 minutes, 7 secondsis a uh simple moving average 20 simple with a 3 plus 3 minus 3 ATR uh upper and lower bounds and you can see it sort of
+6:156 minutes, 15 secondslargely stays within that range sometimes it'll go out of it in stronger momentum but generally it's going to you know when it gets to the top of range comes back and mean reverts top of range
+6:236 minutes, 23 secondscome back comes back and mean revers this is incredibly useful right being able to to see kind of where you are uh within the range and looking for
+6:316 minutes, 31 secondsextremes and being able to to U see that hey it's likely that we're going to get some sort of reversal or at least mean reversion through time um or price um
+6:416 minutes, 41 secondsthat that's incredibly useful so that range-based signal off of the Kelner channels is a core element of what I've
+6:486 minutes, 48 secondsuh sort of implemented in the phase oscillator just done it in a very simple and kind of elegant way uh but giving
+6:556 minutes, 55 secondsyou similar benefits that you get from this celner range uh while putting it into a oscillator
+7:037 minutes, 3 secondssignal the second thing I want to talk about is Binger band compression so uh those of you that are familiar with the Binger bands um incredibly useful to see
+7:127 minutes, 12 secondsthese compression signals because it essentially is saying hey there's some there's low volatility uh consolidation and then you know after this you're going to get a move right so small range
+7:217 minutes, 21 secondsleads to Big Range so the beauty of the Binger band compression you when you get these compression signals um it's
+7:297 minutes, 29 secondsincredibly useful right because it's essentially signaling that small range is about to lead lead to some big range so super useful feature of the the
+7:387 minutes, 38 secondsBinger band compression um very very important um and very useful for identifying uh uh potential places to
+7:477 minutes, 47 secondstrade so the third piece um RSI is incredibly common indicator used by so
+7:547 minutes, 54 secondsmany different people and um I think you know it's probably it's got to be macd and RSI are probably the
+8:028 minutes, 2 secondstwo most commonly used indicators outside of price and volume uh you know candles and and and volume uh candles um
+8:108 minutes, 10 secondsand uh you know RSI is super helpful when you get divergences between price and the signal often you'll get some sort of a mean reversion or you get a
+8:188 minutes, 18 secondsreversal um and that can be incredibly useful for for you know spotting uh uh potential Trend change or you know the
+8:258 minutes, 25 secondsend of a trend um and you can also use it to to sign you know to signal strength and weakness in a particular Market when things are sort of extended
+8:338 minutes, 33 secondsor or overbought oversold or the terms that are used there which I hate I hate those terms I think they're kind of selling you the wrong idea um but let's
+8:428 minutes, 42 secondsjust keep it as strength and weakness and I think that's incredibly valuable um so you know o and stochastics do something similar so you know phase
+8:508 minutes, 50 secondsoscillator also is going to give you a similar signal it doesn't use RSI it doesn't use the same algorithm as RSI so it's going to be different uh but it
+8:588 minutes, 58 secondsdoes provide you kind of a similar signal and when you match them up you'll see that they they end up being pretty similar because they're both based off of price
+9:069 minutes, 6 secondsultimately and then the next thing is the you know the macd um obviously the most useful feature for for most people
+9:139 minutes, 13 secondsI think is the macd crossover um when you're looking for confirmation um you know you can see here there's a potential uptrend that's
+9:219 minutes, 21 secondshappening you know it's a it's a box breakout that's about to happen you get confirmation of a crossover on your on your macd and then you get movement to the upside
+9:299 minutes, 29 secondsuh same thing here crossover movement to the downside crossover movement to the upside Etc so those crossovers can be really useful um and you know in the
+9:389 minutes, 38 secondsphase oscillator also doesn't use macd uh uses a slightly different system uh basically using the Fibonacci uh grid
+9:459 minutes, 45 secondsand Crosses uh uh against that grid you get kind of a similar result as the macd Crossovers we'll talk a little bit about
+9:529 minutes, 52 secondsthat in a moment so those four pieces are very very helpful for for Traders it's a lot it's a lot to put on your
+10:0010 minutesscreen it's a lot to sort of uh uh digest and analyze especially if you're a shorter term Trader it's a lot to have
+10:0710 minutes, 7 secondsgoing on at once so um obviously for me you know for some people you're okay with have 15 indicators I'm not okay with that my goal is to have fewer
+10:1510 minutes, 15 secondsindicators as few as possible um and you know the phase oscillators really uh end goal is to reduce how much I have on my
+10:2210 minutes, 22 secondsscreen at any given time and to to make trading uh a little bit more um uh you know a little easier if you will little
+10:3110 minutes, 31 secondseasier to analyze anyway so let's talk about the basic features of the uh phase oscillator um
+Chapter 4: Basic features
+10:3910 minutes, 39 secondsso there's three basic features it's an ATR EMA based price oscillators we talked about the Kelner channels that's a central core aspect of the the price
+10:4910 minutes, 49 secondsoscillator algorithm uh there's a Fibonacci based grid um those of you that are familiar with ATR levels and you watched the first ATR Levels video
+10:5710 minutes, 57 secondswhen I first uh built it uh you know kind of the levels that I chose back then were the you know 0 236 plus or minus uh plus orus 618 and
+11:0611 minutes, 6 secondsplus or minus 100 and those are the same levels I've chosen for this Fibonacci grid as well and they act surprisingly
+11:1411 minutes, 14 secondsunsurprisingly uh work uh well for this grid um and you know Fibonacci continues to be uh one of the best things uh in
+11:2211 minutes, 22 secondstrading and super useful uh seemingly in uh in almost every aspect of trading so that's uh that's the second piece and
+11:3011 minutes, 30 secondsthen the third piece is a three-c color system for viewing momentum compression and expansion um so I think um you know
+11:3811 minutes, 38 secondsthose three pieces when you put them together and looking to uh provide the same benefits as uh as the you know
+11:4611 minutes, 46 secondsother indicators that I mentioned uh you get something pretty cool so let's talk about the the price-based oscillator so by so I use
+11:5411 minutes, 54 secondsall EMAs I love the the speed of EMAs I think that that provides uh a faster uh you know more more um uh more waiting to
+12:0312 minutes, 3 secondsto short-term price or closer price action which I find valuable so I I leverag the 21 EMA and the Kelner Chan Channel concept of using ATR away from
+12:1212 minutes, 12 secondsan EMA um to essentially then take a difference in price relative to that range to create this uncapped but you
+12:2112 minutes, 21 secondsknow typically range-based signal and this signal allows you to you know do a lot of the same things that you see with RSI uh where it's with in the range
+12:2912 minutes, 29 secondsyou'll see you know you've got um you know when it's what sort of extreme when it's um you know just strength or weakness uh but the uncap nature of it
+12:3812 minutes, 38 secondsalso allows you to see really extreme momentum and then take action on that when the momentum wains um so uh
+12:4512 minutes, 45 secondsincredibly useful and and that uncapped signal you'll see in things like Nvidia um you know things that have really moved strong uh in a strong way they'll
+12:5412 minutes, 54 secondsthey'll they'll uh it's actually a useful signal to have it not be capped uh to have not be sort of just sitting at the top of that um that
+13:0313 minutes, 3 secondsboundary and then also I add a smoothing on the signal um to to give you some short-term Trend at the front of the signal I call that the compass so you'll
+13:1113 minutes, 11 secondssee it when price is moving during the day the front of the uh oscillator signal uh can vary right based on price as price is changing as the Candlestick
+13:1913 minutes, 19 secondsis changing it's going to affect that signal and it'll give you kind of a shortterm uh uh Trend which is incredibly useful um and then there's
+13:2813 minutes, 28 secondsalso very because because of the smoothing that it tends to create better Divergence signals overall uh relative to price and that is not always true but
+13:3613 minutes, 36 secondsI think I've found in most cases uh the divergences are easier to spot and and super super nice super clean let's talk about the Fibonacci
+13:4513 minutes, 45 secondsgrid I talked a little bit about it before uh but essentially we're we're splitting the um the range um you know
+13:5213 minutes, 52 secondsthe the basic range from 0 to 100 and 0 to minus 100 we're splitting that into um
+14:0014 minutesthose you know Fibonacci levels that I mentioned the 236 the 6218 and the 100 with a zero line in between them and of course minus
+14:0814 minutes, 8 secondsversions of those as well and and what I found is these um these these levels can be used as inflection points
+14:1714 minutes, 17 secondscan be used as support and resistance uh on the signal itself and can be used as crossover signals for confirmation similar to macd so like if you get to
+14:2414 minutes, 24 secondsmove above the 618 you know it can typically be like a macd crossover saying hey there's going to be a bullish move to the upside and it's confirmed um
+14:3214 minutes, 32 secondsand then you know the position of this signal within this range within this grid uh can kind of be connected to the four phases that align with typical wickoff phases of accumulation
+14:4114 minutes, 41 secondsaccumulation markup uh distribution and markdown so um the final piece then is a
+14:5114 minutes, 51 secondsthree-c color system for viewing momentum compression and expansion that's on the oscillator itself and the three-c color system allows you to see
+14:5814 minutes, 58 secondsthe the strength the weakness um and uh you know Binger compression and then gives you actionable signals to use that for your trade um you know the
+15:0715 minutes, 7 secondscompression signal in specifically when you see that it's followed by either green or red can give you very clear indication that there's going to be a
+15:1515 minutes, 15 secondsdirectional move um and there's going to be expansion in the direction that you're looking for uh taking the trade
+15:2215 minutes, 22 secondsin so here is the same view so when I showed you what it looks like here's the same thing that I showed you before but now I've labeled it with all of the
+Chapter 5: Detailed feature breakdown
+15:3115 minutes, 31 secondspieces uh that we can talk about um all the important pieces and we'll start with a zero line we'll start with the grid and we can work uh into the signal
+15:3815 minutes, 38 secondsand then talk about the label at the end so the zero line is segmenting momentum this essentially is uh saying you know
+15:4615 minutes, 46 secondsabove the zero line is going to be bullish momentum below the zero line is going to be bearish momentum and of course the fade of that is going to be
+15:5415 minutes, 54 secondsuh you know losing momentum or gain or losing momentum to the to the to the down to the outside and now losing momentum to the
+16:0116 minutes, 1 secondupside and uh so this zero line is delineating that uh you've got these two levels in between 236 and minus 236
+16:0816 minutes, 8 secondsthat's the neutral uh or launch Zone um typically when you have consolidation you're going to be in that range before
+16:1616 minutes, 16 secondsa movement one way or another and often that consolidation will also manifest itself into uh low volatility um and
+16:2516 minutes, 25 secondsyou'll see compression and then you'll see expansion afterwards um so super useful lots of Trades can be taken off that that launch Zone after
+16:3416 minutes, 34 secondsconsolidation uh once you get sort of a breakout or uh yeah breakout or breakdown of that that
+16:4116 minutes, 41 secondsrange of course confirmed uh against price as well um and then we've got this greater than 618 uh less than 618 you
+16:5016 minutes, 50 secondsknow is the uh down to about minus 100 up to plus 100 you know accumulation Zone this is where uh buyers are looking
+16:5716 minutes, 57 secondsto step in for uh uh getting into a position sellers may be trying to exit or trade um and then typically you'll get a mean reversion after that same
+17:0517 minutes, 5 secondsthing on the other side distribution Zone typically you're going to start to have sellers sell sellers stepping in uh and then buyers may be um you know no
+17:1417 minutes, 14 secondslonger interested uh or waiting for some pullback to be able to get back in for some reaccumulation above that you've got uh
+17:2117 minutes, 21 secondsgreater than 100 that's extreme greater than minus or sorry less than minus 100 Extreme as well those extreme uncapped values are incredibly useful it really
+17:3017 minutes, 30 secondsreally and I'll show you once we get back to the SPX full SPX chart I'll show you what it looks like but those extreme zones are typically going to lead to
+17:3817 minutes, 38 secondssome sort of mean reversion or potentially reversal um and so you can leverage that uh to kind of get a sense of where we are particularly once you
+17:4617 minutes, 46 secondsget to the extremes looking for divergences in price against price is is going to uh provide you with really really interesting and useful uh
+17:5417 minutes, 54 secondsreversal signals um so then we've got you know the three signals on the oscillator so so you you've got the grid you've got the three signals on the
+18:0118 minutes, 1 secondoscillator three three colors you know red is showing you um uh you know the uh
+18:1018 minutes, 10 secondsum weakness green is showing you strength uh of course the trend of the OS later matters you want strength up
+18:1718 minutes, 17 secondsright uh this is strong uh strength is you know when the when the green signal is moving up that's strength when it's starting to come back down uh that
+18:2418 minutes, 24 secondsstrength is waning right and and it's probably going to wait for some support or it's going to reverse that's that's typically what's going to happen same
+18:3118 minutes, 31 secondsthing but opposite on the red side and finally you've got the magenta compression signal so again this is just illustrating with the Binger bands
+18:3918 minutes, 39 secondscompress um one interesting thing that I've done here is um you know I look for different compression and expansion
+18:4618 minutes, 46 secondsthresholds uh to to the compression I don't mind happening like I want it to to Really confirm that it's a true compression but expansion I want as
+18:5518 minutes, 55 secondsearly of a signal as possible so that you can actually Leverage The expansion signal when it turns to green or it turns to Red you can actually leverage
+19:0319 minutes, 3 secondsthat uh as a potential entry if you want to if you're not accumulating during the compression signal you don't have a clear sense based off of price which dire it's going you can wait for it to
+19:1119 minutes, 11 secondsconfirm before you start to get a piece of that trade um off of the the compression signal though typically you're going to get bearish expansion or
+19:1919 minutes, 19 secondsyou're going to get bullish expansion when price starts to move um again you can see bearish expansion here this was the reversal that we had recently on SPX
+19:2719 minutes, 27 secondsand I'll show you in context shortly um and then the final piece um when you do get a compression signal since those compression signals are super useful um
+19:3619 minutes, 36 secondsyou know it will flash a uh a label right and it's a high visibility label it's also magenta to to really be in
+19:4319 minutes, 43 secondsyour face like hey this is something you should probably pay attention to it's likely that there's going to be consolidation and uh we're getting compression and there's going to be a
+19:5219 minutes, 52 secondsmove soon um so it'll give you an opportunity to potentially get into that trade um or start to look for opportunities in that trade uh in the
+20:0020 minutesnear term and so that's it that's the phase oscillator and uh let's take a look at it um kind of just clean on a
+Chapter 6: SPX chart analysis
+20:0820 minutes, 8 secondsSPX chart so I do have my my uh pivot ribbon here I didn't put the ATR levels on this uh to keep it a little bit cleaner but I do have the pivot ribbon
+20:1620 minutes, 16 secondsthis is an adjusted version of the pivot ribbon uh so it's not the one that you get off of the website right now uh I will be releasing updates to all the
+20:2420 minutes, 24 secondsindicators over the next month but um right now this is just an updated version that doesn't matter you know you can kind of largely ignore that just the
+20:3220 minutes, 32 secondsmost important thing to know is the center line is the EMA the 21 EMA um everything else is not as relevant I'm using bias candles and other things on
+20:4120 minutes, 41 secondshere as well but you can kind of see you know it it mat match the the oscillator works really well um when you look at it
+20:4920 minutes, 49 secondswith with price um and let's kind of deconstruct this and talk a little bit about this SPX chart going back to to
+20:5820 minutes, 58 secondsOctober now if you guys are familiar with what happened in October this is the handle from the weekly cup and handle that I talked about back in February
+21:0621 minutes, 6 seconds2023 that has been playing out and that is almost done uh and we've been following now for for for a long time um
+21:1621 minutes, 16 secondsand uh for as long as I've been working on the oscillator in fact and uh let's let's jump into it let's diagnose this
+21:2321 minutes, 23 secondsso there's a lot going on let's start with the first thing so after this downtrend that we had back in October there was a beautiful Divergence that
+21:3021 minutes, 30 secondsset up on the oscillator right also had some compression here at some point uh with the in you know off of a rejection
+21:3721 minutes, 37 secondsof the 48 uh which led to a nice move to the downside creating this this Divergence uh and then this Divergence
+21:4421 minutes, 44 secondsled to a beautiful reversal um you can see that it was in the accumulation Zone um where buyers started to step in you
+21:5321 minutes, 53 secondsgot mun reversion the first time uh buyers started to step in again and then the rest is history so beautiful signal
+22:0222 minutes, 2 secondsthat you can see right here with the Divergence so price is making new lows oscillator is making uh uh higher lows
+22:1122 minutes, 11 secondsright um and that Divergence leads to some really nice moves can start with meaner version and then if you get you
+22:1922 minutes, 19 secondsknow uh continuation uh you can continue to play that to the upside or vice versa on the
+22:2722 minutes, 27 secondsdownside we can talk about that in a second so again you know these extreme signals are useful because when you get to these extremes it means hey probably
+22:3522 minutes, 35 secondsa good idea to look for some sort of Divergence and I think that's also fair when you get past the 618 once you get into the distribution and accumulation
+22:4322 minutes, 43 secondszones you can start to look for divergences but when you get to an extreme signal looking for those divergences can be incredibly useful so I think that's a really important thing
+22:5122 minutes, 51 secondsto watch for um of course not all divergences will result in a full am mean reversion but typically you're going to get a mean rever right so in
+22:5922 minutes, 59 secondsthis case we had a Divergence uh again price is going now in this case price is going up so you're making new higher highs on the on the uh on price and
+23:0623 minutes, 6 secondsyou're making a lower highs on the uh oscillator leading to a mean reversion back to the 21 right get back to the 21
+23:1423 minutes, 14 secondswe're sort of in range we start to get a consolidation signal this compression signal and perfect place to accumulate
+23:2123 minutes, 21 secondsfor it's holding the 21 held the 21 again perfect place to accumulate for a move to the upside of course you can see bullish expansion that happens after
+23:2923 minutes, 29 secondsthat signal um you know this is just showing strength we're in distribution Zone but it still continues higher we are getting mean reversions um you know throughout
+23:3823 minutes, 38 secondsand if you look at lower time frames you'll see like the 4 Hour and the hourly you'll see that there's opportunities to play those extreme
+23:4523 minutes, 45 secondssignals as well as uh divergences uh for mean reversion so often when you you know get to these points where you're
+23:5223 minutes, 52 secondssort of an extreme area you can look and you know price went down but you you can look at lower time frames to to see divergences there that can typically
+24:0024 minutesresult in the start of a mean reversion on a higher time frame when you're at these higher levels on the oscillator in here so recently we had this downside
+24:0824 minutes, 8 secondsmove where every you know a lot of people were calling for the end of the world um a lot of us were not scared but there were quite a few people out there
+24:1624 minutes, 16 secondsthat were like ah everything's going to fall apart uh but this is where I think having something like this can actually help you obviously we have the ribbon
+24:2224 minutes, 22 secondsand that helps a bunch too but um you know I even mentioned it I initially thought we were just going to get a pullback and then I thought the consolidation might hold um and you know
+24:3124 minutes, 31 secondsas long as the 21 would hold we'd be able to to to move back up now once that broke so we got the mean reversion off
+24:3824 minutes, 38 secondsthe the the the Divergence here right so you know price going higher uh oscillator going lower uh lower highs
+24:4724 minutes, 47 secondsthese are higher highs mean version so we got the mean version uh we held the 21 bounced a little bit but you know
+24:5524 minutes, 55 secondscouldn't hold it and once we started to break down the 21 it was clear uh that there could be a potential for reversal and I think at that point I was like all
+25:0325 minutes, 3 secondsright it looks like we're going to get to a weekly mean reversion so this is a good example of where you're looking at a lower time frame things start to break down on a lower time frame and you can potentially lead to a mean reversion on
+25:1225 minutes, 12 secondsa higher time frame and so in this case we got some compression and then it moved to the downside I think this is the week where um yeah it was like an Opex week or
+25:2125 minutes, 21 secondssomething where we actually capitalized on this massive move to the downside um so we have this compression
+25:2925 minutes, 29 secondssignal um and you know oscillator is trending down uh and then we finally reach uh distribution sorry accumulation
+25:3825 minutes, 38 secondsZone and then we cross over right so we cross back over it uh and that starts to signify a potential reversal uh we
+25:4525 minutes, 45 secondsactually C caught this too this is where if you guys remember on Twitter I started talking about the 4-Hour structure and we started to shift uh
+25:5325 minutes, 53 secondsback to a uh a 4our nice 4our structure um with high lows and um higher highs
+26:0126 minutes, 1 secondand uh we saw some hidden Divergence on the 4H hour uh uh phase oscillator as well and that actually took us back now up uh to where we were just a couple
+26:1026 minutes, 10 secondsweeks ago so you know you can kind of see that then we got back up here into the uh distribution Zone started to have uh
+26:1826 minutes, 18 secondssome resistance here and again you know some mean reversion back to the 21 um and uh now we're back in compression
+26:2626 minutes, 26 secondsagain and it's looking like uh you know there's a potential for us to maybe pull back a little bit and then continue higher um as long as we get some breath
+26:3426 minutes, 34 secondsin the markets or the leaders continue to stay strong um things like apple are starting to heat up it's been showing great
+26:4126 minutes, 41 secondsrelative strength the last couple weeks we've been in a trade to 200 for that one um so that's it you know when you when you put all these pieces together
+26:5026 minutes, 50 secondsit provides a ton of data in a very very compact package uh of course you have to do some diagnosis and there's plans for making this this a little bit more
+26:5826 minutes, 58 secondsautomated and a little more helpful maybe giving you some arrows and giving you some Auto divergences and things like that uh but you know I think for the most part being able to spot these
+27:0627 minutes, 6 secondsdivergences pretty straightforward being able to see the compression being able to see where we are in you know accumulation or distribution or extremes
+27:1427 minutes, 14 secondsuh can provide uh like hey check this out maybe there's an opportunity to play a mean reversion here mean reversions and reversals are some of the hardest
+27:2227 minutes, 22 secondsthings to trade so this kind of opens that up for a lot of people that struggle with those understanding how to trade those those kind of trades and so
+27:2927 minutes, 29 secondsum I hope you find it useful it works on all time frames I've used it on the one minute I've used it on the monthly again it's not intended to replace any other
+27:3827 minutes, 38 secondsindicators it's its own thing it's its own animal it's using its own signals it's using its own algorithm um so it's
+27:4627 minutes, 46 secondsnot meant to be a replacement for anything but maybe you'll find it useful enough that it's able to give you the signals you need to be able to take
+27:5427 minutes, 54 secondseffective trades uh and ultimately for me it provides me all the benefits of the things that I wanted before uh in a single package where I don't have to
+28:0328 minutes, 3 secondsreally look for a lot of things that being said there are some indicators that I just simply have a hard time
+28:1028 minutes, 10 secondsletting go of because it this there's nothing that can really replace them um you know I don't think you can fully
+28:1828 minutes, 18 secondsreplace um you know Kelner channels and Binger bands I think there's additional benefits that you get from looking at just viewing price against those right I
+28:2728 minutes, 27 secondsthink there's some benefits that you get there I think a lot of that is coded in here um but there's some things you just simply don't get uh unless you're
+28:3428 minutes, 34 secondsvisualizing price against those those ranges all in all I think this is a a fantastic uh piece of my tool set and I
+28:4228 minutes, 42 secondsfound a lot of value for it myself your mileage may vary and I look forward to hearing how uh you find it and if you
+28:5028 minutes, 50 secondsfind it useful would love to hear from you let me know what you think um post a comment send me a DM um or let me know
+28:5828 minutes, 58 secondsin Discord and that's really it my friends um that's that's the indicator uh this
+Chapter 7: Conclusion
+29:0529 minutes, 5 secondsis 16 months of My Life um you know uh I I do a lot of this work um because
+29:1329 minutes, 13 secondsI want to get better I want to improve my trading uh I'm on a constant journey to try to get make things easier for
+29:2029 minutes, 20 secondsmyself um to make analysis easier for myself and so I can be a more effective Trader spend less time uh and be more
+29:2829 minutes, 28 secondsmore effective and um you know it has been a great joy to be able to share this work with everyone um and to do it
+29:3629 minutes, 36 secondsuh for free so I hope you enjoy it and I have uh I'm really excited to see uh what you guys uh find with it and I I
+29:4429 minutes, 44 secondshope it helps to improve your trading all right and on that note much love you guys all take care and happy Trading
+
+Sync to video time
