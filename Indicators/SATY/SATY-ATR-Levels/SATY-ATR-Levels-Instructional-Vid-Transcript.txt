@@ -1,0 +1,189 @@
+Chapter 1: Introduction
+0:011 secondhey everyone uh welcome so uh before we begin I just want to make remind you all that this presentation is not Financial advice and
+0:099 secondsI'm not a financial advisor so any trades you take uh using my indicators or any ideas I suggest are your trades and your trades
+0:1616 secondsalone all right let's jump in So today we're going to talk about uh what's new since March 22 uh with Saudi ATR levels
+0:2525 secondsso lots changed in almost a year um if you've been following Along on Twitter um or if you watched some of the videos
+0:3333 secondsfrom uh the early half of last year um You probably saw some of the changes but some major changes were made
+0:4040 secondsum in January with the latest release so let's walk through them uh there's quite a bit to get through and we'll try to
+0:4848 secondsreview some of the things that have changed also that uh happen some you know throughout the middle of last year which I never got to make a video on
+Chapter 2: Overview
+0:5656 secondsall right so here's what we're going to discuss uh look and feel so lines have become a little bit more precise instead of using
+1:041 minute, 4 secondsclouds we're using uh plots I've added up to three ATR extensions um these are super useful on higher time
+1:121 minute, 12 secondsframes in particular and uh with higher time uh higher ATR levels modes and we'll talk through that a little bit
+1:191 minute, 19 secondsand then also as you guys all know ATR levels are Fibonacci levels that are plotted between the previous close and plus or minus one ATR
+1:281 minute, 28 secondsand uh you know initially I started with the 23 6 and the 61a the golden FIB as the primary levels they work beautifully
+1:361 minute, 36 secondsthat's still the default but you can add the remaining Fibonacci levels which makes it a lot easier for um you know Finding surgical exits
+1:451 minute, 45 secondsand also just witnessing support and resistance throughout intraday or throughout your chart depending on which
+1:521 minute, 52 secondstime frame or which mode you're in all right so super helpful for scalping in particular but also incredibly helpful when you're looking at let's say a daily
+2:002 minutestime frame uh with a higher mode like position all right let's go through the we'll also talk through all six modes there's five for trading view six if you have
+2:092 minutes, 9 secondsthink or Swim you got a Bonus one uh we'll talk through each of those and uh kind of what time frames I like to pair them with and I'll show you some charts
+2:162 minutes, 16 secondsas well all right so let's talk about look and feel um so I made adjustments to the levels
+Chapter 3: Look Feel
+2:232 minutes, 23 secondsthemselves and I'm going to save all the images for later we'll walk through and you'll be able to see examples of everything uh when we get to the modes
+2:302 minutes, 30 secondsbut we'll talk through it right now and um I think it'll be clear by the end of the end of the presentation all right so look of look of ATR levels
+2:382 minutes, 38 secondsis cleaner um a change of clouds to plots um for think of swim the connecting lines have removed been removed this uh
+2:462 minutes, 46 secondsjust makes it visually more appealing and for trading view um I was looking to try to do similar but wasn't able to figure out how to do
+2:532 minutes, 53 secondsthat there may still be a way but I have streamlined the the connecting lines so they're no longer angular they're least vertical at the transition point so that
+3:023 minutes, 2 secondsshould hopefully help uh you can of course change the lines you can make them bigger I think it's set to two right now in the default you can change it to three or four and play around with
+3:113 minutes, 11 secondsthat to your heart's content and the lines will go across the screen on thinkorswim as as normal but tradingview stops them where the price currently is so you can turn on price
+3:193 minutes, 19 secondslines if you want to extend them okay all right ATR extensions uh so in the summer of last year I released an update
+Chapter 4: ATR Extensions
+3:293 minutes, 29 secondsum you know as we were starting to get deeper into the bear Market on higher time frames we're getting past -1 ATR position
+3:363 minutes, 36 secondsmode and in conjunction with that I also released a long-term mode which gives you really nice levels for for the year and so I released this update with
+3:443 minutes, 44 secondsextensions uh they're now on by default and um you know if you're if you're finding that your levels are squished
+3:513 minutes, 51 secondsum on think or Swim you want to uh uncheck fit studies and on trading view uh you want to check on scale price
+4:004 minuteschart only all right so these extensions kind of allow you to see a bigger picture particularly on higher time frames motion with modes like position and long
+4:084 minutes, 8 secondsterm well I'll show you what that looks like but you know when you're when you're you know let's say trading over the course of a year uh and it's in you know an
+4:174 minutes, 17 secondsuptrend or a downtrend so last year was downtrend now we're in an uptrend um for the year um you know this can kind of help you
+4:264 minutes, 26 secondsunderstand where you are relative to the beginning of the year so I highly recommend actually reviewing the daily chart
+4:334 minutes, 33 secondsum just in general you should do that regardless uh but it's a really good idea to take a look at those with position and long-term modes
+4:414 minutes, 41 secondsuh position and long term may not work on all tickers particularly newer IPOs or anything that's been you know less than let's say Position will be less
+4:494 minutes, 49 secondsthan 14 quarters and long term would be less than 14 years but things like indexes the long-term mode can be really
+4:564 minutes, 56 secondsreally helpful so SPX sby yes uh so for for the S P 500 those
+5:035 minutes, 3 secondsthree um ndx uh cues um Etc also for Mega caps Apple uh
+5:125 minutes, 12 secondsMicrosoft Google Amazon uh Tesla Etc so definitely take a look at those really helpful we'll give you a sense of
+5:195 minutes, 19 secondskind of where you are and uh I'll show you some examples later extensions may not be as useful for short-term training um it definitely can
+5:275 minutes, 27 secondsbe helpful during gaps up Gap ups and GAP Downs they may not be useful you can you can play with them you're welcome to turn them off they are on by default right now I think you should try them
+5:355 minutes, 35 secondsout particularly try them out with those higher modes all right and then finally um full Fibonacci levels
+Chapter 5: Fibonacci Levels
+5:435 minutes, 43 secondsum you know this just provides a more complete picture uh Fibonacci is very useful as you guys all know drawing and retracements is very helpful
+5:515 minutes, 51 secondsum and of course ATR levels are based on Fibonacci and ATR so uh now I'm giving you them all so the original ones had 23 6 and 61.8 now you've got the 23 6. 38 50 61 8 7 8 6.
+6:056 minutes, 5 secondsuh they're off by default right now as we transition from the old levels to the new ones but I will eventually make them the default because I do think they're
+6:136 minutes, 13 secondsincredibly helpful and I have them on on all my charts um and then you know I just want to make a note there's a limitation to how many
+6:216 minutes, 21 secondsobjects you can put on a screen I'm sorry and an indicator for for trading View and so you may you'll only be able to see all the fibonaccis up to about 2
+6:286 minutes, 28 secondsATR on on trading view hopefully they'll remove that restriction in the future I can make them go all the way up to three uh if you're on think or Swim they they
+6:366 minutes, 36 secondswork all the way up to three ATR okay so let's talk about the mode so here's day mode this is Tesla again it went all the way
+Chapter 6: Day Mode
+6:456 minutes, 45 secondsto a plus two ATR so this this is a good example because it shows you all the fibs it shows you uh the Precision lines
+6:536 minutes, 53 secondsand it also shows you extensions so it basically shows you all the things that we've added over the course of the last
+7:007 minutesuh year to this so day mode is really good for scalping or day trading you can see that there's opportunities here to take scalps if you
+7:087 minutes, 8 secondswant at levels from level to level and of course you could have held pretty much the whole day and if you use an EMA
+7:157 minutes, 15 secondssystem like ripstream clouds the Saudi pivot Ribbon or just EMAs or moving averages probably could have kept you in
+7:227 minutes, 22 secondsthe trade for that as well uh day mode pairs really well with you know anything under 30 minutes I mean you can go higher
+7:307 minutes, 30 secondsum hourly might start them it's not gonna it would work I'm not sure I would use it but uh you certainly can go hide but I think it pairs super well with
+7:387 minutes, 38 secondsanything from one minute to 30 minutes I use the 10 minute and I use extended hours on so you can see that as an example here so all the examples I'll
+7:457 minutes, 45 secondsshow you is my defaults and then for scalping uh same deal extended hours on but I just go down to the three minute
+7:527 minutes, 52 secondsso super useful and you can see that this was a beautiful move started at the put trigger in pre-market I went above
+8:018 minutes, 1 secondthe call trigger held it and then just continued up all the way uh to almost 180 actually above 180 and we were talking about that this is a mean
+8:098 minutes, 9 secondsreversion play there's a tweet that I posted on why 160 calls you guys can check that out um but beautiful move today sorry
+8:178 minutes, 17 secondsyesterday on Tesla so that's day mode uh these these levels are calculated each day
+8:258 minutes, 25 secondsthey're based on the last uh by default by the last 14 uh days all right let's talk about multi-day
+Chapter 7: MultiDay Mode
+8:328 minutes, 32 secondsmode we're gonna stick with Tesla Tesla's been a good one we've uh traded it down we've traded it up right now we're up
+8:408 minutes, 40 secondsso multi-day mode is uh weekly levels uh they're calculated on a weekly basis and this is a new addition um from March 20.
+8:508 minutes, 50 secondsuh 22 is we originally started with day uh position sorry day swing and uh position so multi-day sits between day
+8:598 minutes, 59 secondsand swing it's really good for one or two day swings um pairs super well with the 10 minute to the hourly and I use the 30 minute uh
+9:079 minutes, 7 secondswith extended hours on and so here you can see the weekly levels for Tesla broke above the weekly call trigger
+9:159 minutes, 15 secondsaround 140 right key level hell that level is nice consolidation so above here you know you could have
+9:229 minutes, 22 secondsstarted to accumulate position uh maybe using the previous clothes or you know some level down here uh at
+9:299 minutes, 29 secondsmaybe this this level here um you know 139 as uh risk or you could have gone further if you wanted to have
+9:379 minutes, 37 secondsa deeper um if you're willing to have a deeper uh stop and uh you know depending on what you're trading if you're trading stock it's
+9:459 minutes, 45 secondsslightly different trading options you may need to have a tighter uh stop uh or lower size wider stop
+9:529 minutes, 52 secondsexcuse me and um you know we had a nice pullback a kind of a flag here pull back to the uh
+10:0010 minutesmulti-day call trigger and basically just went from there um and of course once it broke Above
+10:0610 minutes, 6 secondsThis level here this 50 FIB level it was the breakout right and we basically headed all the way up to
+10:1410 minutes, 14 secondsum one weekly ATR which is 160. that was a key Target for us and then also up to
+10:2110 minutes, 21 secondsabout uh the mid-range and then the 78 6 here so you can see how these levels interact on even a weekly basis
+10:2810 minutes, 28 secondsum super helpful these extra Fibonacci levels and I hope you find them useful but uh great for a swing uh you could enter here you could have accumulated here you
+10:3710 minutes, 37 secondscould have swung it for uh several days uh in fact we did and uh you know great swing great short-term swing
+10:4610 minutes, 46 secondsand uh sticking with Tesla this is gonna be our Golden Goose for this presentation um
+Chapter 8: Swing Mode
+10:5410 minutes, 54 secondsso swing mode which you guys are familiar with we talked about this uh way back in March 22.
+11:0011 minutesum it's good for like one to three swings three week swings of course you can go longer and you can use it to manage the trade longer but going up the position
+11:0811 minutes, 8 secondsto position mode is probably more helpful um so swing mode pairs really well with a 30 minute daily I use the hourly
+11:1611 minutes, 16 secondswithout extended hours so I mentioned this before it's kind of like my zoomed in daily chart it's like seeing uh you know seven candles per Daily candle
+11:2411 minutes, 24 secondsand um you can see here this is uh This Is Us bottoming out on Tesla around 100 uh didn't quite get to 100 but close real close to it and um you know of
+11:3311 minutes, 33 secondscourse we were observing that from 200 all the way down to 100 which is a massive massive sell-off now 101 ended up being uh the weekly
+11:4111 minutes, 41 secondsum minus three keltner's so if you guys use Keltner channels you look at a weekly chart basically bottomed out there and then it started to recover and
+11:4911 minutes, 49 secondsonce it got past 125 uh that was basically it um shorts were in trouble and then you
+11:5611 minutes, 56 secondshad earnings as a catalyst which just absolutely sent it so this is nice because of course you can use these
+12:0312 minutes, 3 secondstriggers as ideas right they can work often and of course here the trigger worked really well but they can also really just work very
+12:1112 minutes, 11 secondswell as support and resistance and we do we I use them all the time so if you're watching my spy plans in the morning um you know I I don't always use the
+12:1912 minutes, 19 secondstriggers uh as the definitive idea sometimes I'll just use it as a key level to play against key resistance key support so you can
+12:2812 minutes, 28 secondssee that the put trigger here on the swing levels held uh health support uh and then you know resistance at the
+12:3612 minutes, 36 secondsprevious monthly close and then once we broke out of that it basically was uh bullish bias and then the breakout uh with the
+12:4412 minutes, 44 secondsearnings Catalyst absolutely squeezing shorts um you know in a disastrous move for them uh but this is Swing level super good
+12:5212 minutes, 52 secondsfor for swings um you know you can use the ideas if you want uh they work out pretty well um and of course these intermediate FIB
+13:0113 minutes, 1 secondlevels can offer uh nice scale out points and scaling points if you're using a trend system you can manage it uh entries entries as well with that
+13:1013 minutes, 10 secondsforeign position mode uh this is also was already available with the original uh release
+Chapter 9: Position Mode
+13:1813 minutes, 18 secondsand uh it's good for bigger swings stock trading or leaps uh these are quarterly levels um and if I didn't mention it before
+13:2613 minutes, 26 secondsswing levels are monthly levels uh so position levels are quarterly levels um and these pair super well with the hourly and the weekly sorry hourly to
+13:3413 minutes, 34 secondsthe weekly and I use a daily default sometimes I'll scale up to the weekly um just to kind of see a bigger picture but here's last quarter and the
+13:4213 minutes, 42 secondsbeginning of this quarter for SPX and you can see very often uh downside or upside right now we're in an uptrend sort of an uptrend here I'm trying to
+13:5113 minutes, 51 secondssee if we can recover um but you know whether it's a downturn downtrend or an uptrend um it it doesn't matter that the
+13:5913 minutes, 59 secondsprinciples are generally the same usually it'll try to recover one of these uh longer term uh long long or short levels
+14:0714 minutes, 7 secondsand then retest it or you know retrace back before continuing and you've seen that last quarter we sort of bottomed out uh 3500
+14:1514 minutes, 15 secondsrecovered the quarterly long trigger uh made a you know move to the mid-range
+14:2214 minutes, 22 secondsthat was a perfectly good swing right there you could have traded that you could have even bought uh position on uh
+14:3014 minutes, 30 secondsspy or um yeah you could have bought a position on spy and then scaled out in the mid-range
+14:3814 minutes, 38 secondsand then there was a pullback where the where the long trigger actually held and then there was continuation up now of course these could be scary moves when you get these big moves down and these
+14:4614 minutes, 46 secondsuh yeah that could that can definitely take you out but if you're position trading and you know you enter here and you're willing to say risk down to here
+14:5414 minutes, 54 seconds36.50 of course you're not buying the underlying of SPX because it's not possible but assuming this was let's say spy which the chart would look the same
+15:0315 minutes, 3 secondsum you know if you're buying something that has the underlying in it then you can you know you'll have your risk you can move up scale out add position on
+15:1115 minutes, 11 secondsdips and then uh continue to scale out at key levels and of course you can see it made it to just above plus one ATR
+15:1815 minutes, 18 secondsalmost actually did an extension um before failing retesting and then continuing down and then we had consolidation at this
+15:2515 minutes, 25 seconds3800 level for about two weeks uh before we started to break out again again breaks out long trigger pulls back and
+15:3315 minutes, 33 secondsthen continues up now we've reached this resistance at this uh 50 uh FIB level so it's likely that they'll probably be a
+15:4015 minutes, 40 secondsretracement maybe down to uh this 38 too I could go as deep as you know let's say 4 000 uh maybe even a
+15:4915 minutes, 49 secondslower but uh it's likely that we've you know reached a near-term high and then we're going to do a pullback and then continuation we've got fomc and a whole
+15:5715 minutes, 57 secondsbunch of things going on we've got earnings Tech earnings coming this week so uh uh many things uh will there's going to be volatility and there's lots
+16:0416 minutes, 4 secondsof catalysts this week so we'll get some clear directions soon but uh nice move up and of course these position levels can help you kind of understand uh the
+16:1316 minutes, 13 secondsquarterly bias a little bit all right here's long-term mode this is last year um again we're looking at SPX so this is
+Chapter 10: Long Term Mode
+16:2216 minutes, 22 secondsgood for long-term entries exits yearly bias uh pairs super well with the hourly in the monthly sorry hourly to the monthly and I use it with daily and
+16:3016 minutes, 30 secondsweekly weekly is my default which I have here uh you can see this is the end of the bull market at the bull run in 2021
+16:3716 minutes, 37 secondsso we we had a dip I think in uh November and then uh you know rally towards the end of the year
+16:4616 minutes, 46 secondsconsolidation and then once we broke this long trigger last year uh for SPX sorry this long uh short trigger for for
+16:5316 minutes, 53 secondsSPX we tried to break above uh the previous yearly close couldn't make it right double topped here
+17:0017 minutesand uh once we broke down this we never recovered it I hope you guys can see that here basically it it broke this level here
+17:0917 minutes, 9 secondsum you know 46.50 let's say and um you know it never recovered made it to minus one yearly this is yearly
+17:1617 minutes, 16 secondslevel so minus one yearly ATR pull back um no hit it again
+17:2317 minutes, 23 secondsexcuse me pulled back to all tried tried to you know rally Above This is the early year
+17:3117 minutes, 31 secondsrally I think March uh where we had a straight rally for for three weeks went up to um you know back to about 46.50 and then
+17:3917 minutes, 39 secondsabsolutely broke down and uh went to minus one ATR and then went to minus two ATR yearly levels
+17:4717 minutes, 47 secondsum you know pulling back uh and then continuing down and then of course recovering the one ATR without before continuing lower
+17:5617 minutes, 56 secondsum and you can see we're making uh lower lows lower highs lower lows lower highs lower lows um lower highs lower lows
+18:0418 minutes, 4 secondsum lower highs and now we're starting to see maybe the signs of something else happening where maybe we have a higher
+18:1218 minutes, 12 secondslow and we'll see if we can put it uh you know we'll we'll be able to spot that as we watch the price
+18:1918 minutes, 19 secondsover the next um several weeks but you can see again the long trigger uh you know broke
+18:2718 minutes, 27 secondsabove yesterday last week sorry two weeks ago it held that long trigger key level and then it broke above and it's starting to break out it's above the
+18:3518 minutes, 35 seconds38.2 level so we'll see what happens maybe pull back like we talked about and then we'll see what happens once uh the Catalyst
+18:4418 minutes, 44 secondsfrom this week occur so those are the the updates um for for everybody and then if you're
+Chapter 11: Scout Mode
+18:5218 minutes, 52 secondson thinkorswim there's a bonus update that came to you which is uh Scout mode and this is again only on thinkorswim so
+19:0019 minutesI know if people ask me about this a lot uh whether it's available for training view it's actually become somewhat of a meme in uh the Discord but um yeah I mean
+19:1019 minutes, 10 secondsit's only available for think of swim because it's there's the capabilities are not there for me to build it on trading view if those ever become available of course nothing would make
+19:1719 minutes, 17 secondsme happier than bringing it over with the new levels uh I don't think you actually need this I don't even know if it's uh and and there'll be another
+19:2419 minutes, 24 secondsvideo where I talk about you know scalping and day trading with SPX and spy so I'll walk through examples of
+19:3119 minutes, 31 secondsusing both day levels and scalp levels for for scalping and so you don't need it and there should definitely not be fomo for it at this point
+19:3919 minutes, 39 secondsum with the extra levels but I like these for scalping pair super well with anything 1 to 15 minutes I'm not sure I would ever scalp on anything like above
+19:4719 minutes, 47 secondsfive minutes personally but um you know I know some people that do and I like to use the three minute
+19:5419 minutes, 54 secondsworks really well with the pivot ribbon system I'm not showing the pivot ribbon iron here because there may be people who use ripsters clouds or
+20:0220 minutes, 2 secondssmas or or EMAs or whatever you want to use there's also tons of people that just don't use EMAs and that's perfectly fine
+20:1020 minutes, 10 secondslevels work regardless right if you just want to map trend and uh you know manage the structure and Trend uh manually that's perfectly fine
+20:1820 minutes, 18 secondsand uh you should be able to do that regardless of whether you use a trend system or not EMA Trend system
+20:2420 minutes, 24 secondsso this is beautiful because you can use if you use just if you're ignoring let's say um you know scalp trigger uh sorry
+20:3320 minutes, 33 secondsthe the scalp levels give you morning levels there's a 9 30 session and then there's a one o'clock session um so you get two two distinct sets of
+20:4120 minutes, 41 secondslevels throughout the day and of course each of these levels uh you know the the triggers are still just ideas they're not there's no guarantee here
+20:4920 minutes, 49 secondsthey're just ideas uh based off of previous closes um and you know in some instances they can work out super well here you can see
+20:5720 minutes, 57 secondsthere's a run to the scalp mid-range perfect actually right there and then it dumps from that point um you know tweezer tweezer top
+21:0521 minutes, 5 secondshere on the three minute and that's a nice uh move to the downside so you can use these as support you can use these as resistance
+21:1321 minutes, 13 secondsum and you can scalp level the level um this is SPX again so in our early morning SPX movement it's not going to be as dramatic but it's still pretty
+21:2121 minutes, 21 secondsdecent I mean you're moving 20 points let's say you know what is this 76 down to you know
+21:2821 minutes, 28 secondseven if you got down to here right that's still a 10 point move that's a decent move and uh if you have the right appropriate strike selected it could be
+21:3521 minutes, 35 secondsuh significant gains um the real magic happens towards the end of the day when you can use less capital and if you get a move like this this can be
+21:4421 minutes, 44 secondstwo thousand percent move um if you pick your uh strikes correctly and so uh you know that leads me to to
+21:5121 minutes, 51 secondsanother thing ETR low is great for strike selection I hope have a whole video on it of course if you're scalping you know if you were up here and you saw that we put in a a high and then a lower
+22:0122 minutes, 1 secondhigh uh and you know lower low basically um you know it was setting up for for short and there was an opportunity to to
+22:0922 minutes, 9 secondsget in here and if you use let's say 40 75 or 4080 as your strike uh that was a
+22:1622 minutes, 16 secondsmassive massive move end of day for contracts that were relatively low cost um you know 25 dollars
+22:2322 minutes, 23 secondsfor 40 75s towards the end of day I think somewhere around here so um super useful
+22:3122 minutes, 31 secondsum I'll have a whole video talking about scalping with these levels but you can see that they they act as pretty decent support and resistance throughout the
+22:3822 minutes, 38 secondsday and they offer some good ideas for potentially going long and short uh throughout the day so
+22:4522 minutes, 45 secondsthat's it that's what's new since March 2022 and uh I'll go more in depth to how to use the
+22:5422 minutes, 54 secondslevels how to use the ribbon and just My overall system including incorporating how I use TTM squeeze uh ready game fire
+23:0223 minutes, 2 secondsand uh internals Market internals like tick in another video but I hope this helps I hope you guys get a sense of
+23:0923 minutes, 9 secondswhat's new uh and what's changed since about a year ago
+
+Sync to video time
