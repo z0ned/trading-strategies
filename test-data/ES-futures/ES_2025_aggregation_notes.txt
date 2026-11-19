@@ -1,0 +1,19 @@
+Source: ES_2025_1MIN_combined_out.csv
+Source rows: 352510
+Intervals anchored at 18:00 each day in source clock time; timestamp denotes bucket start. Source timezone not specified; no clock conversion performed. Empty buckets omitted. Partial buckets retained, including session-end buckets and missing minutes; no synthetic prices. OHLC only; source has no volume.
+
+Minutes, Candles, Buckets with fewer than N source minutes
+2,176284,58
+3,117522,54
+4,88144,59
+5,70513,52
+6,58764,59
+7,50581,310
+8,44203,314
+9,39347,314
+10,35260,57
+11,32192,311
+12,29386,61
+13,27336,314
+14,25297,313
+15,23506,54
