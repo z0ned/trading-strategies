@@ -1,0 +1,33 @@
+Saty Phase Oscillator
+An ATR/EMA-based price oscillator that helps monitor market phases using a Fibonacci-based grid that shows you meaningful data about the market phases. 
+
+An ATR/EMA-based price oscillator.
+
+ By leveraging the 21 EMA and the Keltner channel concept of using ATR away from an EMA, using the difference in price relative to range creates an uncapped but typically range-based signal. This signal allows you to see relative strength conditions within range like RSI. The uncapped nature of the signal allows you to see extreme momentum and take action when that momentum wanes. The smoothing of this signal provides short-term trend at the front of the signal, called the Compass, as well as clean divergence signals relative to price.
+
+A Fibonacci-based grid.
+
+Using the ATR/EMA-based range and splitting it using fibonacci levels in a grid gives meaningful levels to use as inflection points, support/resistance, and crossover signals for confirmation similar to MACD. The position of signal in range can be connected to the 4 phases that align with the typical Wyckoff phases of Accumulation, Mark Up, Distribution, and Mark Down.
+
++ 100 Extreme
++ 61.8 Distribution Zone
++ 23.6 Neutral / Launch Zone
+0 = Zero-line where momentum shifts
+- 23.6 Neutral / Launch Zone
+- 61.8 Accumulation Zone
+- 100 Extreme
+
+Outside of +/- 100 indicates extreme momentum and will typically result in some cooling off after momentum wanes. Great for signaling to look for divergences and mean reversion.
+
+A 3-color system for viewing momentum, compression, and expansion.
+
+The 3-color system allows you to see momentum strength (green), weakness (red), and Bollinger compression (grey or magenta), giving you actionable signals to use against your trade. A compression signal followed by either green or red gives you a very clear indication of directional price expansion.
+
+Crossover Dots
+
+"Yellow light" momentum slowing signals upon PO +/- 61.8 and +/- 100 crossovers. Can help confirm mean reversions. On by default. Can be turned off.
+
+NEW! Time Warp
+
+You can now view Phase Oscillator in higher timeframes while on a lower timeframe just like Saty Pivot Ribbon and Saty Pivot Ribbon Pro. For example, you can view your Hourly chart while seeing compression and range on Daily Phase Oscillator.
+
